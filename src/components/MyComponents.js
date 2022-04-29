@@ -27,6 +27,8 @@ class MyComponents extends Component {
            <p>
                상태변수 myValue = {myValue}
            </p>
+           <button onClick={()=>this.setState({myValue: myValue+1})}> 증가 </button>
+           <button onClick={()=>this.setState({myValue: myValue-1})}> 감소 </button>
         </div>
         );
     }
