@@ -30,7 +30,7 @@ class MyComponents extends Component {
 
     handleChange = (e) => { // e : Event
       this.setState({
-          message: e.target.value
+          message: e.target.value // text field에서 입력된 값
       });
     };
 
